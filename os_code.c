@@ -54,7 +54,7 @@ int main()
  {  cnt=0;
  for(j=0;j<r;j++)
  {
-  if(p[i]==1) break;
+  if(p[i] == 1) break;
   if(need[i][j]<=avail[j])
   {
   cnt++;
