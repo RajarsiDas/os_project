@@ -15,7 +15,7 @@ int main()
  printf("\nEnter insatnces for resources :\n");
  for(i=0;i<r;i++)
  {  printf("R%d ",i+1);
-  scanf("%d",&avail[i]);
+  scanf(" %d",&avail[i]);
   }
  printf("\n Enter allocation matrix  \n");
  for(i=0;i<n;i++)
