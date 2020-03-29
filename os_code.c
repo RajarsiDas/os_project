@@ -72,7 +72,7 @@ int main()
  }
  if(cntt<n-1)
  {
- printf("\n deadlock ");
+ printf("\n deadlock condition");
  }
       getch();
  }
